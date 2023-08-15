@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container .prodact {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.prodact .cart img {
+    width: 300px;
+
+}
+
+.prodact .box {
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 300px;
+
+}
+footer,
+.infoCrat {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #9FC131;
+    font-size: 19px;
+
+}
+
+.add {
+    padding: 16px;
+    border: 1px solid #9FC131;
+    margin-top: 30px;
+    text-align: center;
+    color: #9FC131;
+    font-size: 16px;
+    transition: 0.5s;
+
+}
+
+i {
+    padding-right: 10px;
+}
+
+.add:hover {
+    background-color: #9FC131;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.prodact .cart:hover {
+    cursor: pointer;
+
+}
+
+
+.prodactcart {
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 70%;
+    display: flex;
+
+
+}
+
+.cart-img img {
+    width: 50%;
+
+
+}
+
+.cart-img {
+    display: contents;
+
+
+}
+
+.info .add {
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+
+.info {
+    margin-left: 20px;
+    width: 100%;
+
+
+}
+
+.perent {
+    display: flex;
+
+
+
+}
+
+
+.btn-num .num {
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+.btn-num {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    width: max-content;
+    margin-top: 40px;
+
+
+}
+
+.btn-num span {
+
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    padding: 5px 16px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    cursor: pointer;
+
+}
+
+.total-price {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    width: 300px;
+    height: fit-content;
+    margin: 50px auto;
+}
+
+
+.total-price div {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 16px;
+
+}
+
+.total-price .total {
+    padding: 20px;
+}

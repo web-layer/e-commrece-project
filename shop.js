@@ -24,6 +24,8 @@ function init() {
                 `
                 
          })
+
+        console.log(prodactall)
         listprodact.insertAdjacentHTML('beforeend', prodactall.join(""))
 
 
